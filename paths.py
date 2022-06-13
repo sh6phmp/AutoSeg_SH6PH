@@ -28,7 +28,7 @@ PLEASE READ paths.md FOR INFORMATION TO HOW TO SET THIS UP
 """
 
 # base = os.environ['nnUNet_raw_data_base'] if "nnUNet_raw_data_base" in os.environ.keys() else None
-nnunet_base = '/media/lu/Data/Data/nnUnet'
+nnunet_base = 'E:\\AutoSeg_Bladder\\nnUnet'
 base = join(nnunet_base, "nnUNet_raw_data_base")
 # preprocessing_output_dir = os.environ['nnUNet_preprocessed'] if "nnUNet_preprocessed" in os.environ.keys() else None
 preprocessing_output_dir = join(nnunet_base, "nnUNet_preprocessed")
