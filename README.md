@@ -8,3 +8,5 @@ Autosegmentation code modified for brachytherapy based on [nnU-Net](https://gith
 5. Use nnUNet_predict to generate predicted masks based on the input test cases.
 6. Use postprocessing command to remove bubbles.(optional)
 7. Evaluate the model performance by excuting the commands in /evaluation/evaluator, 
+## Running Environments
+The training code of the model is modified to be compatible both with Windows and Ubuntu. However, the model can only be predicted on Ubuntu, we are working on some compatibility issues to make prediction on Windows system possible.
